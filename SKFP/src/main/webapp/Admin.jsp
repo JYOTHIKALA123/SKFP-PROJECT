@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="images/icon.png">
+      <link rel="icon" href="images/icon.jpeg">
     <title>Admin Order List</title>
     <style>
         table {

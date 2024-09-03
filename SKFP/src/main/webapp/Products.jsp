@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Display</title>
-    <link rel="icon" href="images/icon.png">
+      <link rel="icon" href="images/icon.jpeg">
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
