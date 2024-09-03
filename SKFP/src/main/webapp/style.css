@@ -1,0 +1,310 @@
+@charset "UTF-8";
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header .head ul {
+    list-style: none;
+    display: flex;
+}
+
+header .head ul li {
+    margin: 0 10px;
+}
+
+header .head ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header .head ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content h1 {
+    font-size: 36px;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.Products .image1,
+.Products .image2,
+.Products .image3 {
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.Products img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Products h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color:black;
+}
+
+.Products p {
+    font-size: 14px;
+    color: hsl(0, 0%, 6%);
+    display: inline;
+}
+
+.bottom {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bottom button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.bottom button:hover {
+    background-color:darkgray;
+}
+
+/* Sing Up CSS*/
+body, h1, h2, p, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.Signup {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Signup h1 {
+    font-size: 36px;
+    color: #f8f2f2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.inputs label{
+    width: 95%;
+    margin-right: 10px;
+    color:rgb(15, 15, 15);
+    text-align: left;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.inputs input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: #555;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+
+/*Login CSS*/
+/*body, h1, p, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    background: url('../images/bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.521);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}*/
+
+.Login {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Login h1 {
+    font-size: 36px;
+    color: #f8f2f2;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.input-box {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.input-box label {
+    display: block;
+    color: rgb(10, 10, 10);
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.login__check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #1d1c1c;
+}
+
+.login__check-box {
+    display: flex;
+    align-items: center;
+}
+
+.login__check-box input {
+    margin-right: 5px;
+}
+
+.login__forgot {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login__forgot:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    background-color: rgb(31, 29, 29);
+    color: #e0dada;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+}
+
+.btn button:hover {
+    background-color: #555;
+}
+
+.Sign {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.Sign a {
+    color: #0a0a0a;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.Sign a:hover {
+    color: #ddd;
+}
+
